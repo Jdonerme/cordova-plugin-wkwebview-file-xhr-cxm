@@ -2,6 +2,8 @@
   'use strict';
 
   if (self.fetch) {
+    self._fetch = self.fetch;
+    self.fetch = undefined;
     return
   }
 
