@@ -1,6 +1,6 @@
-# cordova-plugin-wkwebview-file-xhr 2.1.4
+# cordova-plugin-wkwebview-file-xhr-cxm 1.0.0
 
-## About the cordova-plugin-wkwebview-file-xhr
+## About the cordova-plugin-wkwebview-file-xhr-cxm
 
 This plugin makes it possible to reap the performance benefits of using the WKWebView in your Cordova app by resolving the following issues:
 
@@ -13,7 +13,7 @@ This plugin makes it possible to reap the performance benefits of using the WKWe
 Plugin installation requires Cordova 4+ and iOS 9+. It will install the Apache Cordova WKWebView plugin `cordova-plugin-wkwebview-engine`.
 
 ```
-cordova plugin add cordova-plugin-wkwebview-file-xhr
+cordova plugin add cordova-plugin-wkwebview-file-xhr-cxm
 ```
 
 ## Supported Platforms

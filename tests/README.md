@@ -17,10 +17,10 @@ Our plugin uses the [Cordova Plugin Test Framework](https://github.com/apache/co
     cordova plugin add http://git-wip-us.apache.org/repos/asf/cordova-plugin-test-framework.git
 ```
 + Change the start page in "`test/config.xml`" with `<content src="cdvtests/index.html"/>`.
-+ Install "`cordova-plugin-wkwebview-file-xhr`" plugin and associated tests:
++ Install "`cordova-plugin-wkwebview-file-xhr-cxm`" plugin and associated tests:
 ```
-    cordova plugin add ../cordova-plugin-wkwebview-file-xhr
-    cordova plugin add ../cordova-plugin-wkwebview-file-xhr/tests
+    cordova plugin add ../cordova-plugin-wkwebview-file-xhr-cxm
+    cordova plugin add ../cordova-plugin-wkwebview-file-xhr-cxm/tests
 ```
 + Open the Xcode project "`test/platforms/ios/TestFileXhr.xcodeproj`" in the Xcode IDE and run.  Alternatively, use the cordova CLI:
 ```

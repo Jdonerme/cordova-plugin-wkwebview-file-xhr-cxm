@@ -1,4 +1,7 @@
 # Change Log
+## cordova-plugin-wkwebview-file-xhr-cxm v1.0.0 (09/09/2020)
+Changes to setting window.fetch function to work with Capacitor
+
 ## cordova-plugin-wkwebview-file-xhr v2.1.3 (11/22/2019)
 * Rectifcation of Object.toString incorrect behavior with FormData polyfil (issue #39).
 * Fix for double encoding of URL UTF-8 params (issue #41).
